@@ -1,2 +1,2 @@
 FROM tomcat
-ADD deploy /usr/local/tomcat/webapps
+COPY target/helloworld.war /usr/local/tomcat/webapps
